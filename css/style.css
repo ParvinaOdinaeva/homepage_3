@@ -1,0 +1,119 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.bodyContener {
+    line-height: 1.5;
+    font-family: 'Lato', sans-serif;
+    text-align: justify;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 4px ridge hsl(189, 26%, 95%);
+    border-radius: 15px;
+    outline: 5px ridge hsl(180, 13%, 78%);
+    outline-offset: 2px;
+    box-shadow: -7px 0px 50px 0px rgba(0, 0, 0, 0.1), 0px 0px 50px -3px rgba(0, 0, 0, 0.1);
+}
+
+.mainContener {
+    margin: 20px;
+    background-color: #ddd
+}
+
+.articleHeader {
+    font-style: italic;
+}
+
+.navigation {
+    cursor: pointer;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:focus {
+    color: rgb(4, 73, 85);
+    outline: 1.5px solid currentColor;
+}
+
+.link:hover {
+    color: rgb(6, 116, 24);
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+.link:active {
+    color: rgba(223, 71, 198, 0.473);
+}
+
+
+.list {
+    font-style: italic;
+    text-shadow: -1px 4px 4px rgba(126, 145, 174, 0.64);
+    margin: 10x 0;
+    list-style: none;
+    padding-left: 0;
+}
+
+.listItem {
+    text-decoration: none;
+}
+
+.table {
+    overflow-x: auto;
+    border-collapse: collapse;
+}
+
+.tableCell {
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.tableRow:nth-child(even) {
+    background-color: #eee;
+}
+
+.tableRow:hover {
+    background-color: #ddd;
+}
+
+.image {
+    max-width: 80%;
+    margin: 2%;
+    border-radius: 5%;
+    outline: 2px solid rgb(212, 223, 224);
+    outline-offset: 1px;
+}
+
+.allowance {
+    max-width: 1000px;
+    margin: 0px auto;
+    padding: 10px;
+    border: 4px ridge hsl(189, 26%, 95%);
+    border-radius: 15px;
+    outline: 5px ridge hsl(180, 13%, 78%);
+    outline-offset: 2px;
+    box-shadow: -7px 0px 50px 0px rgba(43, 42, 42, 0.1), 0px 0px 50px -3px rgba(0, 0, 0, 0.1);
+}
+
+.buttonStyle {
+    padding: 5px;
+    border: none;
+}
+
+.hide {
+    display: none;
+}
+
+.mainContenerColorToggle {
+    background-color: rgb(228, 238, 237);
+}
+
